@@ -4,7 +4,7 @@ import os
 import shutil
 from zipfile import ZipFile
 
-def read_excel_from_1c(file_path="", file_name="", header=0, usecols=None, index_col=False):
+def read_excel_from_1c(file_path="", header=0, usecols=None, index_col=False):
     """
     Фукнция конвертирует кривые excel файлы выгруженные из 1С записанные 
     с ошибкой: "There is no item named 'xl/sharedStrings.xml' in the archive"
@@ -27,9 +27,9 @@ def read_excel_from_1c(file_path="", file_name="", header=0, usecols=None, index
         os.rename(wrong_file_path, correct_file_path)
 
         # Запаковываем excel обратно в zip, перемещаем и переименовываем в исходный файл
-        file_1c_zip = file_name.rpartition(".")[0]
-        shutil.make_archive(file_1c_zip, 'zip', tmp_folder)
-        shutil.move(os.path.realpath(file_1c_zip + ".zip"), str(file_path))
+        file_name = os.path.basename(file_path)
+        shutil.make_archive(file_name, 'zip', tmp_folder)
+        shutil.move(os.path.realpath(file_name + ".zip"), str(file_path))
         
         print("Файл перепакован из-за ошибки: "  + str(ke))
 
