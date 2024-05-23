@@ -1,1 +1,31 @@
 .tmp.driveupload
+__pycache__
+Orders/Documents тмц/тмц1кв2019.xlsx
+Orders/Documents тмц/тмц1кв2020.xlsx
+Orders/Documents тмц/тмц1кв2021.xlsx
+Orders/Documents тмц/тмц2кв2019.xlsx
+Orders/Documents тмц/тмц2кв2020.xlsx
+Orders/Documents тмц/тмц2кв2021.xlsx
+Orders/Documents тмц/тмц3кв2019.xlsx
+Orders/Documents тмц/тмц3кв2020.xlsx
+Orders/Documents тмц/тмц3кв2021.xlsx
+Orders/Documents тмц/тмц4кв2019.xlsx
+Orders/Documents тмц/тмц4кв2020.xlsx
+Orders/Documents тмц/тмц4кв2021.xlsx
+Orders_v3.0/1/sales.xlsx
+Orders_v3.0/10/sales.xlsx
+Orders_v3.0/2/sales.xlsx
+Orders_v3.0/3/sales.xlsx
+Orders_v3.0/4/sales.xlsx
+Orders_v3.0/5/sales.xlsx
+Orders_v3.0/6/sales.xlsx
+Orders_v3.0/7/sales.xlsx
+Orders_v3.0/8/sales.xlsx
+Orders_v3.0/9/sales.xlsx
+Orders/sales.xlsx
+Orders/test.xlsx
+Orders/weather_src.xls
+Orders/Documents тмц/_src_ext.xlsx
+Orders_v2.0/data.xlsx
+Orders/data.xlsx
+.gitignore
